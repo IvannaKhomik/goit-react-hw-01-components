@@ -6,9 +6,8 @@ export const StatsSection = styled.section`
   align-items: center;
   border: 2px solid #34495e;
   border-radius: 4px;
-  align-self: flex-start;
   overflow: hidden;
-  margin-right: 12px;
+  margin-bottom: 16px;
 `;
 export const Title = styled.h2`
   text-transform: uppercase;

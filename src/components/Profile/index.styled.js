@@ -7,7 +7,7 @@ export const ProfileCard = styled.div`
   border: 1px solid #bdc3c7;
   border-radius: 8px;
   padding-top: 4px;
-  margin-right: 8px;
+  margin-bottom: 16px;
   overflow: hidden;
 `;
 export const UserDescription = styled.div`

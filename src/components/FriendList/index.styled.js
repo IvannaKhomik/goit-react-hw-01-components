@@ -4,5 +4,5 @@ export const List = styled.ul`
   padding: 10px;
   border: 1px solid #cacfd2;
   border-radius: 8px;
-  margin-right: 12px;
+  margin-bottom: 16px;
 `;

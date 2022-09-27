@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Transaction } from '../Transaction';
 import { TransactionWrap, Thead, Trow, Title, Tbody } from './index.styled';
 
@@ -19,4 +20,8 @@ export const TransactionHistory = ({ items }) => {
       </Tbody>
     </TransactionWrap>
   );
+};
+
+TransactionHistory.propTypes = {
+  items: PropTypes.array.isRequired,
 };

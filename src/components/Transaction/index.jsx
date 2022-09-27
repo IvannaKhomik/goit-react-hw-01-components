@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import { Trow, TransactionInfo } from './index.styled';
 
 export const Transaction = ({ info: { type, amount, currency } }) => {
@@ -8,4 +10,12 @@ export const Transaction = ({ info: { type, amount, currency } }) => {
       <TransactionInfo>{currency}</TransactionInfo>
     </Trow>
   );
+};
+
+Transaction.propTypes = {
+  info: PropTypes.shape({
+    type: PropTypes.string.isRequired,
+    amount: PropTypes.string.isRequired,
+    currency: PropTypes.string.isRequired,
+  }),
 };
