@@ -1,10 +1,5 @@
 import styled from 'styled-components';
-
-const getRandomHexColor = () => {
-  return `#${Math.floor(Math.random() * 16777215)
-    .toString(16)
-    .padStart(6, 0)}`;
-};
+import { getRandomHexColor } from './getRandomColor';
 
 export const StatsCard = styled.li`
   width: 80px;
